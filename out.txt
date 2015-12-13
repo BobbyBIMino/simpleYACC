@@ -1,0 +1,71 @@
+S2
+S14
+r14    F->id        GOTO:   76
+S102
+r21    <op3>->==        GOTO:   127
+S15
+r15    F->num        GOTO:   148
+r13    F->F<op3>F        GOTO:   76
+r10    T->F        GOTO:   75
+r8    E->T        GOTO:   13
+r5    S->E        GOTO:   10
+r2    S->if S        GOTO:   1
+S9
+S5
+S32
+r34    <assign>->*=        GOTO:   70
+S15
+r15    F->num        GOTO:   76
+r10    T->F        GOTO:   75
+r8    E->T        GOTO:   123
+r6    S->id<assign>E        GOTO:   37
+r3    S->S;S        GOTO:   1
+S9
+S61
+S109
+S139
+r28    F->id++        GOTO:   114
+r10    T->F        GOTO:   113
+r8    E->T        GOTO:   134
+S149
+r11    F->(E)        GOTO:   60
+r10    T->F        GOTO:   59
+r8    E->T        GOTO:   4
+r5    S->E        GOTO:   37
+r3    S->S;S        GOTO:   1
+S9
+S5
+S34
+r23    <assign>->=        GOTO:   70
+S122
+r14    F->id        GOTO:   76
+r10    T->F        GOTO:   75
+r8    E->T        GOTO:   123
+S26
+r16    <op1>->+        GOTO:   69
+S122
+r14    F->id        GOTO:   76
+r10    T->F        GOTO:   121
+r7    E->E<op1>T        GOTO:   123
+S26
+r16    <op1>->+        GOTO:   69
+S122
+r14    F->id        GOTO:   76
+r10    T->F        GOTO:   121
+S98
+r18    <op2>->*        GOTO:   126
+S122
+r14    F->id        GOTO:   147
+r9    T->T<op2>F        GOTO:   121
+r7    E->E<op1>T        GOTO:   123
+r6    S->id<assign>E        GOTO:   37
+r3    S->S;S        GOTO:   1
+S9
+S8
+S36
+r31    F->--id        GOTO:   60
+r10    T->F        GOTO:   59
+r8    E->T        GOTO:   4
+r5    S->E        GOTO:   37
+r3    S->S;S        GOTO:   1
+acc
